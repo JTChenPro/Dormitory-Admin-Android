@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework9</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+        <string name="strInAc">用户名：</string>
+    <string name="strmail">邮箱：</string>
+    <string name="strPwd1">密码：</string>
+    <string name="strPwd2">地址：</string>
+    <string name="Re">注册</string>
+    <string name="Res">重置</string>
+     <string name="Sex">性别：</string>
+      <string name="Ml">男</string>
+       <string name="Fm">女</string>
+
+</resources>

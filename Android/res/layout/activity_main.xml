@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/idshow"
+        android:layout_height="40dp"
+        android:background="#AABBFFCC"
+        android:gravity="center"
+        android:text="首页"
+        android:textSize="20dp" />
+
+    <!-- 定义一个ImageSwitcher组件 -->  
+
+	<ImageSwitcher
+	    android:id="@+id/switcher"
+	    android:layout_width="match_parent"
+	    android:layout_height="240dp"
+	    android:layout_gravity="center_horizontal" />
+	<!-- 定义一个GridView组件 -->
+
+    <GridView
+        android:id="@+id/grid01"
+        android:layout_width="fill_parent"
+        android:layout_height="268dp"
+        android:gravity="center"
+        android:horizontalSpacing="pt"
+        android:numColumns="3"
+        android:verticalSpacing="2pt"
+        >
+    </GridView>
+  
+
+     
+</LinearLayout>  
